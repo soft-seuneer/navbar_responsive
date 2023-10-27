@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./app.js">
     <script src="https://kit.fontawesome.com/1cb318ddb5.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <div class="header">
-        
+
         <div class="container">
             <img src="./5906160.png" alt="">
             <nav>
-                
+
                 <ul id="sidemenu">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -24,7 +24,7 @@
                     <li><a href="">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
-                
+
             </nav>
         </div>
         <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
@@ -32,11 +32,11 @@
     <script>
         let sidemenu = document.getElementById("sidemenu");
         function openmenu() {
-    sidemenu.style.right = "0";
+            sidemenu.style.right = "0";
         }
         function closemenu() {
-    sidemenu.style.right = "-200";
-}
-    </script>
+            sidemenu.style.right = "-200";
+        }
+     </script>
 </body>
 </html>
