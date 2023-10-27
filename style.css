@@ -122,9 +122,7 @@ nav ul{
     z-index: 2;
     transition: right 0.5s;
 }
-.fa-regular.fa-circle-xmark{
-    color: blueviolet;
-}
+
  ul li a::after{
     content: "";
     background-color: blueviolet;
@@ -142,12 +140,13 @@ ul li a:hover::after{
 }
 ul .fa-regular.fa-circle-xmark{
     display: block;
-    color: white;
+    color: blueviolet;
     position: absolute;
     top: 25px;
     left: 25px;
     margin-left: 30px;
-
+    font-size: 50px;
+    
 }
 ul li{
     margin: 0;
