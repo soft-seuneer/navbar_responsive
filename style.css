@@ -49,6 +49,7 @@ ul li a::after{
     width: 50%;
     bottom: -6px;
     position: absolute;
+    transition: right 0.5s;
 }
 
 ul li a:hover::after{
@@ -119,6 +120,7 @@ nav ul{
     margin: 0;
     padding-top: 100px;
     z-index: 2;
+    transition: right 0.5s;
 }
 .fa-regular.fa-circle-xmark{
     color: blueviolet;
@@ -128,14 +130,14 @@ nav ul{
     background-color: blueviolet;
     height: 3%;
     left: 0;
-    width: 50%;
+    width: 0%;
     bottom: -6px;
     position: absolute;
 } 
 
 ul li a:hover::after{
     width: 100%;
-    transition: 0.5s;
+    
     
 }
 ul .fa-regular.fa-circle-xmark{
